@@ -1,0 +1,12 @@
+.navbar-brand {
+    font-weight: bold;
+    font-size: 2 rem;
+  }
+  .navbar.glass {
+    background: rgba(69, 2, 43, 0.735); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(10, 153, 171, 0.903); 
+    box-shadow: 0 4px 30px rgba(8, 177, 215, 0.873); 
+  }
+  

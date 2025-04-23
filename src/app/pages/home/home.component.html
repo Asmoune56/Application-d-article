@@ -1,0 +1,17 @@
+<div class="container mt-4">
+    <h2 class="mb-4">Articles récents</h2>
+  
+    <div class="row">
+      <div class="col-md-6 mb-4" *ngFor="let article of articles">
+        <div class="card h-100">
+          <img [src]="article.image" class="card-img-top" alt="Article image" />
+          <div class="card-body">
+            <h5 class="card-title">{{ article.title }}</h5>
+            <p class="card-text">{{ article.content }}</p>
+            <span class="badge bg-primary">{{ article.category }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

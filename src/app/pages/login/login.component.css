@@ -1,0 +1,63 @@
+/* Glassmorphism style for the login form */
+*{
+  margin-top: 10px;
+  font-size: 24px;
+}
+.container {
+    background: rgba(69, 2, 43, 0.735); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(10, 153, 171, 0.903); 
+    box-shadow: 0 4px 30px rgba(8, 177, 215, 0.873);    border-radius: 16px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #1b1818;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  label {
+    color: #f9f1f1;
+  }
+  
+  input.form-control {
+    background-color: #0371828e;
+    border: none;
+    color: #f9f1f1;
+  }
+  
+  input.form-control::placeholder {
+    color: #f9f1f1;
+  }
+  
+  input.form-control:focus {
+    background-color: #0371828e;
+    outline: none;
+    box-shadow: none;
+    color: #f9f1f1;
+  }
+  
+  .btn-primary {
+    background-color: #0371828e;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4e4cbf;
+  }
+  
+  .text-danger {
+    color: #ffb3b3;
+  }
+  
