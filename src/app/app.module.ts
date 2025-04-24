@@ -10,6 +10,9 @@ import { PostDetailComponent } from './pages/post-detail/post-detail.component';
 import { PostFormComponent } from './pages/post-form/post-form.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+import { CommentsModule } from './comments/comments.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,9 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    CommentsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
