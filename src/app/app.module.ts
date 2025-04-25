@@ -10,6 +10,9 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
+import { CommentsModule } from './comments/comments.module';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +25,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    CommentsModule,
     HttpClientModule
   ],
   providers: [],
