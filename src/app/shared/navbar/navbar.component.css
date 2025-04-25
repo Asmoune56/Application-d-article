@@ -9,4 +9,13 @@
     border-bottom: 1px solid rgba(10, 153, 171, 0.903); 
     box-shadow: 0 4px 30px rgba(8, 177, 215, 0.873); 
   }
+  .app-logo {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #ecddd3;
+    letter-spacing: 1px;
+  }
+
+
   

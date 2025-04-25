@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Mon premier article",
+      "content": "Voici le contenu de mon article.",
+      "image": "https://via.placeholder.com/150",
+      "category": "Actualité",
+      "author": "admin"
+    }
+  ]
+}
