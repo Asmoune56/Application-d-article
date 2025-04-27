@@ -8,18 +8,20 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   articles = [
     {
-      id: 1,
-      title: 'Bienvenue dans notre blog Angular !',
-      content: 'Découvrez les bases d’Angular étape par étape.',
-      image: 'https://cinqmars.fr/wp-content/uploads/2020/04/re%CC%81fe%CC%81rencer-un-article-de-blog.jpg',
-      category: 'Frontend'
+      "id": "1",
+      "title": "Mon premier article",
+      "content": "Voici le contenu de mon article.",
+      "image": "https://i.ytimg.com/vi/2gTah9w3sFg/hqdefault.jpg",
+      "category": "Actualité",
+      "author": "admin"
     },
-    {
-      id: 2,
-      title: 'L’authentification avec Firebase',
-      content: 'Comment sécuriser votre application avec Firebase Auth.',
-      image: 'https://cinqmars.fr/wp-content/uploads/2020/04/re%CC%81fe%CC%81rencer-un-article-de-blog.jpg',
-      category: 'Authentification'
-    }
+      {
+        "id": "2",
+        "title": "Mon premier article",
+        "content": "Voici le contenu de mon article.",
+        "image": "https://i.ytimg.com/vi/2gTah9w3sFg/hqdefault.jpg",
+        "category": "Actualité",
+        "author": "admin"
+      }
   ];
 }

@@ -8,6 +8,6 @@ export class CommentsService {
 
     constructor(private httpClient: HttpClient) { }
     getComments(): Observable<CommentInterface[]> {
-        return this.httpClient.get<CommentInterface[]>('http://localhost:3000/comments');
+        return this.httpClient.get<CommentInterface[]>('http://localhost:3001/comments');
     }
 }

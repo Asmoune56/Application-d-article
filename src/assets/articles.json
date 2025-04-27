@@ -1,12 +1,18 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "Mon premier article",
-      "content": "Voici le contenu de mon article.",
-      "image": "https://via.placeholder.com/150",
-      "category": "Actualité",
-      "author": "admin"
+      "id": "2",
+      "title": ".bn ",
+      "content": ".nm b",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRryNuzOaja0QmPPXEiSf8Je_xnrhvL7ChsaS-JQYV_P5fwZpeFVJXB5t2wYwp9oVKt3lc&usqp=CAU",
+      "category": ".nh "
+    },
+    {
+      "id": "3",
+      "title": "33",
+      "content": "3333",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRryNuzOaja0QmPPXEiSf8Je_xnrhvL7ChsaS-JQYV_P5fwZpeFVJXB5t2wYwp9oVKt3lc&usqp=CAU",
+      "category": "photographe"
     }
   ]
 }

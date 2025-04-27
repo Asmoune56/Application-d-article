@@ -16,7 +16,7 @@ export class PostService {
   constructor() { }
 
 
-  getarticles() : Observable<Post[]> {
+  getArticles() : Observable<Post[]> {
    return this.http.get<Post[]>(this.apiUrl);
   
 
@@ -34,7 +34,7 @@ export class PostService {
     return this.http.put<Post>(`${this.apiUrl}/${article.id}`, article);
   }
   deleteArticle(id: number): Observable<any> {
-    return this.http.delete(`http://localhost:3000/posts/${id}`);
+    return this.http.delete(`${this.apiUrl}/${id}`);
   }
   
 

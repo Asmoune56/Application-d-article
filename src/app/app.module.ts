@@ -11,6 +11,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import { CommentsModule } from './comments/comments.module';
+import { PostListComponent } from './pages/post-list/post-list.component';
+import { PostFormComponent } from './pages/post-form/post-form.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { CommentsModule } from './comments/comments.module';
     HomeComponent,
     LoginComponent,
     PostDetailComponent,
-    NavbarComponent
+    PostListComponent,
+    NavbarComponent,
+    PostFormComponent
   ],
   imports: [
     BrowserModule,
@@ -27,8 +31,10 @@ import { CommentsModule } from './comments/comments.module';
     FormsModule,
     CommentsModule,
     HttpClientModule
+    
   ],
   providers: [],
+  
   bootstrap: [AppComponent]
 })
 export class AppModule { }

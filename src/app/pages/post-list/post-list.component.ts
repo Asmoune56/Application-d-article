@@ -15,7 +15,7 @@ export class PostListComponent implements OnInit {
 
   ngOnInit(): void {
     this.loadPosts();
-    this. postService.getarticles().subscribe(posts=>{
+    this. postService.getArticles().subscribe(posts=>{
       this.posts=posts
       console.log(posts)
     })
@@ -23,7 +23,7 @@ export class PostListComponent implements OnInit {
   }
 
   loadPosts() {
-    this.postService.getarticles().subscribe((data: Post[]) => {
+    this.postService.getArticles().subscribe((data: Post[]) => {
       this.posts = data;
      
     });
